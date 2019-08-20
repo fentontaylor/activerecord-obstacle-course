@@ -76,7 +76,6 @@ describe 'ActiveRecord Obstacle Course, Week 2' do
     # ------------------------------------------------------------
 
     # ------------------ Using ActiveRecord ----------------------
-    binding.pry
     items = Item.where.not(id: items_not_included.map(&:id))
     # ------------------------------------------------------------
 
